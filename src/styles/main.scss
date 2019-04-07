@@ -1,0 +1,46 @@
+@import '~slick-carousel/slick/slick.css';
+
+#app {
+    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: #2c3e50;
+    margin-top: 60px;
+}
+
+.slick_button_class {
+    color: lightpink;
+    font-weight: bold;
+    font-size: 20px;
+    background: none;
+    border: 0;
+
+    &:focus {
+        outline: none;
+    }
+}
+
+.slick-current .slick_button_class {
+    font-size: 24px;
+    font-weight: bolder;
+    color: #ff8878;
+}
+
+.slick-horizontal {
+    .slick-list {
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    .slick-track {
+        display: flex;
+        align-items: center;
+    }
+}
+
+.slick-vertical {
+    .slick-list {
+        padding: 30px 0 !important;
+    }
+}
